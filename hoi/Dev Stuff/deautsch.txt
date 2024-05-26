@@ -1,0 +1,22 @@
+init 5 python:
+    addEvent(
+        Event(
+            persistent.event_database,
+            eventlabel="monika_d",
+            category=['monika'],
+            prompt="d",
+            random=True
+        )
+    )
+
+label monika_d:
+    m "Do you know any German [mas_get_player_nickname()]?"
+    menu:
+        "I'm Fluent in it":
+            
+
+        "I'm know a lot":
+
+        "I only know a little":
+
+        "I don't know any":
